@@ -1,0 +1,9 @@
+{
+  "pluginId": "neodex.algoflow",
+  "repo": "NDesumeur/neodex-plugin-algoflow",
+  "version": "1.0.0",
+  "sha256": "86d985b47ca132f9d01599396a1110dd277aa427bb487d303a347e055e4a747e",
+  "approvedAt": "2026-11-12T06:35:37.967Z",
+  "neobase": ">=4.0.0",
+  "signature": "BYiOay3HHmxes55K8fZqKQk6j3V+2OW8eD4LfU0EGyfsUS4DpUT783L3SuexXfTXIeaZPgXzRnZO4335lCRXBw=="
+}
