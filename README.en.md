@@ -27,3 +27,8 @@ A 40 × 24 grid you draw: **click** for a wall, **Shift+click** for mud (cost 5)
 ## Data
 
 The chosen algorithm, the speed and the drawn grid are kept in the plugin folder. Permission: `storage` only.
+
+## Version 1.1.0
+
+- Larger text, pseudo-code and counters; the graph grid has bigger cells (32 × 18); the app uses the full width.
+- New **Race** mode: two sorts work on the same array side by side (one on top, one below), one step each at a time; the first to finish wins.

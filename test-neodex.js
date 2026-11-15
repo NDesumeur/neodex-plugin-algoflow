@@ -12,5 +12,9 @@ module.exports = async ({ pj, sleep }) => {
   await click('[data-mode=graph]'); await click('[data-algo=astar]'); await click('#af_end'); await sleep(100);
   if (!/Chemin trouvé/.test(await msg())) throw new Error('A* : ' + await msg());
   await click('[data-algo=dijkstra]'); await click('#af_play'); await sleep(1500);
-  return 'tri rapide, dichotomie, A* et Dijkstra ok';
+  // la course : tri à bulles contre tri rapide sur le même tableau au hasard, le tri rapide doit gagner
+  await click('[data-mode=race]'); await click('[data-race="0bubble"]'); await click('[data-race="1quick"]'); await click('#af_end'); await sleep(100);
+  if (!/^Tri rapide gagne/.test(await msg())) throw new Error('course : ' + await msg());
+  await click('#af_play'); await sleep(1500);
+  return 'tri rapide, dichotomie, A*, Dijkstra et course ok';
 };

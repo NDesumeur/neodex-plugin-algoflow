@@ -27,3 +27,8 @@ Une grille de 40 × 24 cases que tu dessines : **clic** pour un mur, **Maj+clic*
 ## Données
 
 L'algorithme choisi, la vitesse et la grille dessinée sont gardés dans le dossier du plugin. Autorisation : `storage` seulement.
+
+## Version 1.1.0
+
+- Textes, pseudo-code et compteurs plus grands ; la grille des graphes a des cases plus grandes (32 × 18) ; l'appli prend toute la largeur.
+- Nouveau mode **Course** : deux tris rangent le même tableau côte à côte (un en haut, un en bas), une étape chacun à la fois ; le premier qui a fini gagne.
